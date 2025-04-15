@@ -35,8 +35,10 @@ main{
 
 .cards{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 2%;    
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: repeat(auto-fill, minmax(110px, 280px));
+    gap: 2%;  
+    justify-content: center;  
 }
 
 .card{
@@ -161,7 +163,7 @@ footer{
     line-height: 1.5rem;
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     .cards{
 
         grid-template-columns: repeat(3,1fr);
@@ -181,4 +183,4 @@ footer{
 
         grid-template-columns: repeat(1, 1fr);
     }
-}
+} */
