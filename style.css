@@ -56,6 +56,10 @@ main{
     overflow: hidden;   
 }
 
+.img_c:hover{
+        scale: 1.01;
+}
+
 
 .img_c img{
     position: absolute;
